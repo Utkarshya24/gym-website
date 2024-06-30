@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import FitnessGoal from './components/FitnessGoal';
 import BestOffer from './components/BestOffer';
+import BestPlan from './components/BestPlan';
 function App() {
  
   return (
@@ -12,6 +13,7 @@ function App() {
      <Hero/>
      <FitnessGoal/>
      <BestOffer/>
+     <BestPlan/>
     </>
   )
 }

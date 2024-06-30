@@ -205,6 +205,73 @@ ul{
   background-color:rgb(102, 102, 102);
 }
 .bestoffer:hover{
-  background-color: #ff6123;
+  background-color: var(--primary-color);
 }
 /**********************************/
+
+.best-plan {
+  background-color: var(--dark-color);
+  color: white;
+  padding: 6rem 0;
+  text-align: center;
+
+}
+.bestplan_col1 img, .bestplan_col2 img, .bestplan_col3 img{
+  width: 40px;
+}
+.bestplan_col1, .bestplan_col2, .bestplan_col3 {
+  background-color: rgb(102, 102, 102);
+  color: white;
+  border-radius: 20px;
+  padding: 20px;
+}
+.bestplan_col2 {
+  background-color: var(--primary-color);
+}
+.bestplan_col1, .bestplan_col3 {
+  margin: 20px;
+}
+.btn8, .btn10{
+  padding: 8px;
+  color: white;
+  border: 1px solid white;
+  background: none;
+  border-radius: 20px;
+}
+.btn9 {
+  padding: 8px;
+  color: var(--primary-color);
+  background: white;
+  border-radius: 20px;
+}
+.bestplan_col1:hover, .bestplan_col2:hover, .bestplan_col3:hover {
+  background-color: var(--main-color);
+}
+.Plancontainer {
+  justify-content: center;
+  align-items: center;
+}
+.popularplan{
+  display: flex;
+  font-size: larger;
+  font-weight: 500;
+  margin: 10px;
+  margin-left: 38%;
+  width: 250px;
+  border-radius: 20px;
+  border: 2px solid var(--main-color);
+  cursor: pointer;
+}
+.most{
+  padding: 10px;
+  background-color: var(--main-color);
+  border-radius: 15px;
+}
+.popularplan span {
+  padding: 10px;
+  margin-left: 20px;
+}
+.chooseplan-h1{
+  font-weight: 700;
+}
+
